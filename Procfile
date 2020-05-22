@@ -1,1 +1,1 @@
-worker dq.js
+worker: ./src/dq.js
