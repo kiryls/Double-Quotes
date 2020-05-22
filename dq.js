@@ -12,6 +12,6 @@ const conf = {
 console.log('Hello world!' + '...and the prefix is ' + conf.prefix);
 
 
-client.login(conf.token);
+// client.login(conf.token);
 
 //"url": "git+https://github.com/kiryls/Double-Quotes.git"
