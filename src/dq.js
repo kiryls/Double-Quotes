@@ -2,14 +2,14 @@ require('dotenv').config();
 
 const Discord = require('discord.js');
 
-const Client = Discord.Client();
+const client = Discord.Client();
 
-const Config = {
+const conf = {
 	token: process.env.TOKEN,
 	prefix: process.env.PREFIX
 };
 
-console.log('Hello world!' + '...and the prefix is ' + Config.prefix);
+console.log('Hello world!' + '...and the prefix is ' + conf.prefix);
 
 
-Client.login(Config.token);
+client.login(conf.token);
