@@ -9,17 +9,17 @@ const conf = {
 	prefix: process.env.PREFIX
 };
 
-const people = require("./resources/approved.json");
+// const people = require("./resources/approved.json");
 
 // const unito_logo = "https://i.imgur.com/6Q7LKpZ.png";
 
 console.log("hello world from dq.js");
 
-client.on("ready", () => {
-	console.log(`'Double Quotes' has started. . .`);
+// client.on("ready", () => {
+// 	console.log(`'Double Quotes' has started. . .`);
 
-	client.user.setActivity(`...with wisdom`);
-});
+// 	client.user.setActivity(`...with wisdom`);
+// });
 
 // client.on("guildCreate", guild => {
 // 	// This event triggers when the bot joins a guild.
