@@ -2,13 +2,13 @@
   "name": "double-quotes",
   "version": "1.0.0",
   "description": "A Discord bot that quotes people",
-  "main": "./dq.js",
+  "main": "./src/dq.js",
   "scripts": {
-    "start": "node ./dq.js"
+    "start": "node ./src/dq.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kiryls/Double-Quotes.git"
+    "url": "git+https://github.com/kiryls/Double-Quotes.git"
   },
   "keywords": [],
   "author": "",

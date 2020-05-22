@@ -9,9 +9,8 @@ const conf = {
 	prefix: process.env.PREFIX
 };
 
-console.log('Hello world!' + '...and the prefix is ' + conf.prefix);
+console.log('press "' + conf.prefix + '" and type a command for your bot!');
 
 
-// client.login(conf.token);
+client.login(conf.token);
 
-//"url": "git+https://github.com/kiryls/Double-Quotes.git"
