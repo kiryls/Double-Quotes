@@ -1,0 +1,96 @@
+[
+    {
+        "id": "aringhieri",
+        "first": "Roberto",
+        "last": "Aringhieri",
+        "image": "https://i.imgur.com/tS0iaka.jpg",
+        "color": "#6e0505",
+        "quotes": [
+            "Maremma schizofrenica!",
+            "Non possiamo mica bruciarci in piazza Castello per avere più aule!",
+            "Il terrorismo è divertente!",
+            "Se queste cose proiettate vi sembrano banali, è normale.",
+            "Attento, stai già pensando alla soluzione del problema.",
+            "Scriviamo ora i vincols",
+            "Domani pomeriggio pubblichiamo le modalità d'esame. Abbiate fede (feat. Grosso)."
+        ]
+    },
+    {
+        "id": "mori",
+        "first": "Andrea",
+        "last": "Mori",
+        "image": "http://www.vetrinaartisti.it/wp-content/uploads/2017/09/andreamori.jpg",
+        "color": "#040d4a",
+        "quotes": [
+            "Secondo il principio, le gabbie dei piccioni sono nei cassetti.",
+            "Un insieme infinito è un insieme non finito.",
+            "Altre domande in silenzio!",
+            "GTT permettendo...",
+            "Ognuno è coniuge di se stesso.",
+            "* RISATA MALEFICA *",
+            "Come si chiamava già il terzo film de Il Signore degli Anelli?"
+        ]
+    },
+    {
+        "id": "ros",
+        "first": "Luca",
+        "last": "Motto Ros",
+        "image": "https://i.imgur.com/poRPG5Y.jpg",
+        "color": "#0b870b",
+        "quotes": [
+            "Questo è proprio un festival della fantasia.",
+            "Per la traduzione è necessario tradurre.",
+            "Io sono BATMAN"
+        ]
+    },
+    {
+        "id": "ciro",
+        "first": "Ciro",
+        "last": "Cattuto",
+        "image": "https://i.imgur.com/FdQHKWZ.jpg",
+        "color": "#40a312",
+        "quotes": [
+            "42",
+            "E ora ci divertiamo con l'algoritmo (si fa per dire)..",
+            "Io sono Ciro Cattuto, come sempre, spero che stiate bene e che stiate a casa",
+            "..e speriamo che dalla volta successiva ci si veda in aula.",
+            "01101101 01100001 01110100 01110010 01101001 01111000...ops, scusate, riprendiamo da dove eravamo rimasti.."
+        ]
+    },
+    {
+        "id": "dieg1",
+        "first": "Diego",
+        "last": "Magro",
+        "image": "https://i.imgur.com/Y1Gxkp9.png",
+        "color": "#e06100",
+        "quotes": [
+            "Se non metto questo l'algoritmo s'incazza!",
+            "Ok!",
+            ":-)",
+            "Scusate il trapano di sottofondo...",
+            "toselli..Toselli..TOSELLI!!",
+            "..se..parlo..così..mi..sentite..?"
+        ]
+    },
+    {
+        "id": "aldino",
+        "first": "Marco",
+        "last": "Aldinucci",
+        "image": "https://media.discordapp.net/attachments/656976851058556959/711343360668991498/Snapshot_2009-11-13_18-52-52_400x400.png",
+        "color": "#d60092",
+        "quotes": [
+            "Quando siete di fronte ad un problema che non riuscite a risolvere, il modo migliore di affrontarlo è....diciamo....trovare la soluzione.",
+            "Suca! haha"
+        ]
+    },
+    {
+        "id": "rove",
+        "first": "Luca",
+        "last": "Roversi",
+        "image": null,
+        "color": "#d60092",
+        "quotes": [
+            "Se vedo un break vi boccio subito"
+        ]
+    }
+]
