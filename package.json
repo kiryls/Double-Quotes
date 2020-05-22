@@ -4,7 +4,7 @@
   "description": "A Discord bot that quotes people",
   "main": "dq.js",
   "scripts": {
-    "start": "node dq.js"
+    "start": "node ./src/dq.js"
   },
   "repository": {
     "type": "git",
