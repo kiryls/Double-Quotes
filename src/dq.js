@@ -9,7 +9,7 @@ const conf = {
 	prefix: process.env.PREFIX
 };
 
-// const people = require("./resources/approved.json");
+const people = require("./assets/approved.json");
 
 // const unito_logo = "https://i.imgur.com/6Q7LKpZ.png";
 
