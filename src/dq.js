@@ -80,7 +80,7 @@ client.on("message", async message => {
 			.setColor('#0099ff')
 			.setTitle('Double Quotes Faqs')
 			.setAuthor('kiril', 'https://i.imgur.com/PQ0IdSo.jpg', 'https://discord.js.org')
-			.setDescription('A mini bot to shed some wisdom.')
+			.setDescription('A small bot with great wisdom.')
 			.setThumbnail('https://i.imgur.com/4zb5wNj.png')
 			.addFields(
 				{ name: '\u200B', value: '\u200B' },
