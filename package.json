@@ -2,7 +2,7 @@
   "name": "Double-Quotes",
   "version": "1.0.0",
   "description": "A Discord bot that quotes people",
-  "main": "dq.js",
+  "main": "./src/dq.js",
   "scripts": {
     "start": "node ./src/dq.js"
   },
