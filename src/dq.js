@@ -40,7 +40,7 @@ client.on("message", async message => {
 	if (message.author.bot)
 		return;
 
-	if (message.content.indexOf(config.prefix) !== 0)
+	if (message.content.indexOf(conf.prefix) !== 0)
 		return;
 
 	const args = message.content.slice(conf.prefix.length).trim().split(/ +/g);
