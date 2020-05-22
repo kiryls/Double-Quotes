@@ -1,5 +1,5 @@
 {
-  "name": "double-quotes",
+  "name": "Double-Quotes",
   "version": "1.0.0",
   "description": "A Discord bot that quotes people",
   "main": "./src/dq.js",
