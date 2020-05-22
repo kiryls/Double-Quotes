@@ -1,0 +1,23 @@
+{
+  "name": "Double-Quotes",
+  "version": "1.0.0",
+  "description": "A Discord bot that quotes people",
+  "main": "dq.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiryls/Double-Quotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiryls/Double-Quotes/issues"
+  },
+  "homepage": "https://github.com/kiryls/Double-Quotes#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
