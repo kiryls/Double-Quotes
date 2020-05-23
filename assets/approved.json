@@ -93,5 +93,15 @@
         "quotes": [
             "Se vedo un break vi boccio subito"
         ]
+    },
+    {
+        "id": "laura",
+        "first": "Vivina Laura",
+        "last": "Barutello",
+        "image": null,
+        "color": "#d60092",
+        "quotes": [
+            "Adesso ne escano 5 o non continuo."
+        ]
     }
 ]
