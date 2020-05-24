@@ -1,8 +1,8 @@
 node_modules
 .env
 
-# Created by https://www.gitignore.io/api/osx
-# Edit at https://www.gitignore.io/?templates=osx
+# Created by https://www.gitignore.io/api/osx,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=osx,visualstudiocode
 
 ### OSX ###
 # General
@@ -32,4 +32,13 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# End of https://www.gitignore.io/api/osx
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
