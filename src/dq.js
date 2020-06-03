@@ -50,10 +50,7 @@ client.on("message", async message => {
 		const id = people[i].id;
 		if (command === id) {
 
-			if (args[0] === "-s")
-				message.delete().catch(O_o => { });
-
-			if(args[0] === "-a"){
+			if (args[0] === "-a") {
 				let allQuotes = "";
 
 				people[i].quotes.forEach(quote => {
@@ -62,6 +59,9 @@ client.on("message", async message => {
 
 				break;
 			}
+
+			if (args[0] === "-s")
+				message.delete().catch(O_o => { });
 
 
 			var img = unito_logo;
