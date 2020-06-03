@@ -53,6 +53,16 @@ client.on("message", async message => {
 			if (args[0] === "-s")
 				message.delete().catch(O_o => { });
 
+			if(args[0] === "-a"){
+				let allQuotes = "";
+
+				people[i].quotes.forEach(quote => {
+					allQuotes += quote + "\n";
+				});
+
+				break;
+			}
+
 
 			var img = unito_logo;
 			if (people[i].image != null)
@@ -76,24 +86,7 @@ client.on("message", async message => {
 	}
 
 	if (command === "info") {
-		const embed = new Discord.MessageEmbed()
-			.setColor('#0099ff')
-			.setTitle('~ Double Quotes ~')
-			.setAuthor('kiryls', 'https://i.imgur.com/PQ0IdSo.jpg', 'https://discord.js.org')
-			.setDescription('A small bot with great wisdom.')
-			.setThumbnail('https://i.imgur.com/4zb5wNj.png')
-			.addFields(
-				{ name: '\u200B', value: '\u200B' },
-				{ name: '``?sneak <something>``', value: 'Just try it...' },
-				{ name: "``?person [-s]``", value: "Retrieve a random quote of a person if there is such an instance in the database. **-s** option makes it sneaky ;)" },
-				{ name: '``?suggest <person> <quote>``', value: 'Soon...' },
-				{ name: '``?all``', value: 'See all the people currently in the database.' }
-			)
-			.setTimestamp()
-			.setFooter('');
-
-
-		const exampleEmbed = {
+		const embed = {
 			color: 0x0099ff,
 			title: 'Double Quotes',
 			author: {
@@ -106,10 +99,6 @@ client.on("message", async message => {
 				url: 'https://i.imgur.com/4zb5wNj.png',
 			},
 			fields: [
-				// {
-				// 	name: '\u200b',
-				// 	value: '\u200b',
-				// },
 				{
 					name: '``?sneak <something>``',
 					value: 'Just try it...',
