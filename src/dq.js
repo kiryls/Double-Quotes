@@ -57,6 +57,8 @@ client.on("message", async message => {
 					allQuotes += quote + "\n";
 				});
 
+				message.channel.send(allQuotes);
+
 				break;
 			}
 
