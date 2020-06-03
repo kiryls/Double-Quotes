@@ -106,8 +106,8 @@ client.on("message", async message => {
 					value: 'Just try it...',
 				},
 				{
-					name: "``?person [-s]``",
-					value: "Retrieve a random quote of a person if there is such an instance in the database. **-s** option makes it sneaky ;)",
+					name: "``?person [-s][-a]``",
+					value: "Retrieve a random quote of a person.\n**-s**: makes it sneaky ;)\n**-a**: lists all the quotes",
 				},
 				{
 					name: '``?suggest <person> <quote>``',
