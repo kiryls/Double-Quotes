@@ -78,21 +78,66 @@ client.on("message", async message => {
 	if (command === "info") {
 		const embed = new Discord.MessageEmbed()
 			.setColor('#0099ff')
-			.setTitle('Double Quotes Faqs')
-			.setAuthor('kiril', 'https://i.imgur.com/PQ0IdSo.jpg', 'https://discord.js.org')
+			.setTitle('~ Double Quotes ~')
+			.setAuthor('kiryls', 'https://i.imgur.com/PQ0IdSo.jpg', 'https://discord.js.org')
 			.setDescription('A small bot with great wisdom.')
 			.setThumbnail('https://i.imgur.com/4zb5wNj.png')
 			.addFields(
 				{ name: '\u200B', value: '\u200B' },
-				{ name: '``?sneak <something>``', value: 'Sneak a message in the chat.' },
+				{ name: '``?sneak <something>``', value: 'Just try it...' },
 				{ name: "``?person [-s]``", value: "Retrieve a random quote of a person if there is such an instance in the database. **-s** option makes it sneaky ;)" },
 				{ name: '``?suggest <person> <quote>``', value: 'Soon...' },
 				{ name: '``?all``', value: 'See all the people currently in the database.' }
 			)
 			.setTimestamp()
-			.setFooter('PM me @ kiril#7092');
+			.setFooter('');
 
-		message.channel.send(embed);
+
+		const exampleEmbed = {
+			color: 0x0099ff,
+			title: '~ Double Quotes ~',
+			author: {
+				name: 'kiryls',
+				icon_url: 'https://i.imgur.com/PQ0IdSo.jpg',
+				url: 'https://discord.js.org/kiril#7092',
+			},
+			description: 'A small bot with great wisdom.',
+			thumbnail: {
+				url: 'https://i.imgur.com/4zb5wNj.png',
+			},
+			fields: [
+				{
+					name: '\u200b',
+					value: '\u200b',
+				},
+				{
+					name: '``?sneak <something>``',
+					value: 'Just try it...',
+				},
+				{
+					name: "``?person [-s]``",
+					value: "Retrieve a random quote of a person if there is such an instance in the database. **-s** option makes it sneaky ;)",
+				},
+				{
+					name: '``?suggest <person> <quote>``',
+					value: 'Soon...',
+				},
+				{
+					name: '``?all``',
+					value: 'See all the people currently in the database.',
+				},
+				
+			],
+			timestamp: new Date(),
+			footer: {
+				text: 'Add me kiril#7092 | [github page](https://github.com/kiryls/Double-Quotes)',
+			},
+		};
+
+
+
+
+		message.channel.send({embed : exampleEmbed});
 	}
 
 	if (command === "all") {
