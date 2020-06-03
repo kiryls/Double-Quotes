@@ -95,21 +95,21 @@ client.on("message", async message => {
 
 		const exampleEmbed = {
 			color: 0x0099ff,
-			title: '~ Double Quotes ~',
+			title: 'Double Quotes',
 			author: {
 				name: 'kiryls',
 				icon_url: 'https://i.imgur.com/PQ0IdSo.jpg',
 				url: 'https://discord.js.org/kiril#7092',
 			},
-			description: 'A small bot with great wisdom.',
+			description: 'A small bot with great wisdom | [github page](https://github.com/kiryls/Double-Quotes)',
 			thumbnail: {
 				url: 'https://i.imgur.com/4zb5wNj.png',
 			},
 			fields: [
-				{
-					name: '\u200b',
-					value: '\u200b',
-				},
+				// {
+				// 	name: '\u200b',
+				// 	value: '\u200b',
+				// },
 				{
 					name: '``?sneak <something>``',
 					value: 'Just try it...',
@@ -130,7 +130,7 @@ client.on("message", async message => {
 			],
 			timestamp: new Date(),
 			footer: {
-				text: 'Add me kiril#7092 | [github page](https://github.com/kiryls/Double-Quotes)',
+				text: 'Add me kiril#7092',
 			},
 		};
 
