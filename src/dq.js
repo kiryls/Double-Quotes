@@ -107,7 +107,7 @@ client.on("message", async message => {
 				},
 				{
 					name: "``?person [-s][-a]``",
-					value: "Retrieve a random quote of a person.\n**-s**: makes it sneaky ;)\n**-a**: lists all the quotes",
+					value: "Retrieve a random quote of a person.\n`-s`: makes it sneaky ;)\n`-a`: lists all the quotes",
 				},
 				{
 					name: '``?suggest <person> <quote>``',
