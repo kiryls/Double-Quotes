@@ -128,7 +128,7 @@ client.on("message", async message => {
 
 
 
-		message.channel.send({ embed: exampleEmbed }).catch(O_o => { });
+		message.channel.send({ embed: embed });
 	}
 
 	if (command === "all") {
