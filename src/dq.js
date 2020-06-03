@@ -96,7 +96,7 @@ client.on("message", async message => {
 				icon_url: 'https://i.imgur.com/PQ0IdSo.jpg',
 				url: 'https://discord.js.org/kiril#7092',
 			},
-			description: 'A small bot with great wisdom \n[github page](https://github.com/kiryls/Double-Quotes)',
+			description: 'A small bot with great wisdom \n[[github](https://github.com/kiryls/Double-Quotes)]',
 			thumbnail: {
 				url: 'https://i.imgur.com/4zb5wNj.png',
 			},
