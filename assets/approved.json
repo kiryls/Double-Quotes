@@ -120,5 +120,20 @@
             "Sono sincera eh, non so se ci sarà negli esami",
             "Ma come non ci capisce niente? Non dica così"
         ]
+    },
+    {
+        "id": "sirovich",
+        "first": "Roberta",
+        "last": "Sirovich",
+        "image": "https://i1.rgstatic.net/ii/profile.image/748960473939968-1555577500005_Q128/Roberta_Sirovich.jpg",
+        "color": "#d60092",
+        "quotes": [
+            "Vi faccio un pippone",
+            "...hai il microfono acceso..",
+            "Cosa vuol dire SUS?"
+        ]
     }
 ]
+
+
+
