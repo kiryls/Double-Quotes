@@ -121,7 +121,7 @@ client.on("message", async message => {
 			],
 			timestamp: new Date(),
 			footer: {
-				text: 'Add me kiryls#7092',
+				text: 'Contact me @ kiryls#7092',
 			},
 		};
 
