@@ -16,6 +16,9 @@ const unito_logo = "https://i.imgur.com/6Q7LKpZ.png";
 
 client.on("ready", () => {
 	console.log(`'Double Quotes' has started. . .`);
+	console.log(`Connected to:`);
+	for(guild of client.guilds)
+		console.log(guild.name, '\n');
 
 	client.user.setActivity(`...with wisdom`);
 });
@@ -143,4 +146,6 @@ client.on("message", async message => {
 });
 
 client.login(conf.token);
+
+
 
