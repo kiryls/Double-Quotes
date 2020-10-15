@@ -16,8 +16,6 @@ const unito_logo = "https://i.imgur.com/6Q7LKpZ.png";
 
 client.on("ready", () => {
 	console.log(`'Double Quotes' has started. . .`);
-	console.log(`Connected to:`);
-	console.log(client.guilds);
 
 	client.user.setActivity(`...with wisdom`);
 });
@@ -123,7 +121,7 @@ client.on("message", async message => {
 			],
 			timestamp: new Date(),
 			footer: {
-				text: 'Add me kiril#7092',
+				text: 'Add me kiryls#7092',
 			},
 		};
 
